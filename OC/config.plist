@@ -166,66 +166,6 @@
                     <key>TableSignature</key>
                     <data></data>
                 </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>_PTS to ZPTS(1,N)</string>
-                    <key>Count</key>
-                    <integer>1</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>X1BUUwE=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WlBUUwE=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>_WAK to ZWAK(1,N)</string>
-                    <key>Count</key>
-                    <integer>1</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>X1dBSwE=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WldBSwE=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
             </array>
             <key>Quirks</key>
             <dict>
@@ -397,42 +337,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBluetoothFirmware.kext</string>
-                    <key>Comment</key>
-                    <string>V2.0.1 | IntelBluetoothFirmware.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>IntelMausi.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.7 | IntelMausi.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelMausi</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
                     <string>V1.5.7 | Lilu.kext</string>
@@ -487,6 +391,42 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>IntelBluetoothFirmware.kext</string>
+                    <key>Comment</key>
+                    <string>V2.0.1 | IntelBluetoothFirmware.kext</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelMausi.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.7 | IntelMausi.kext</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelMausi</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>NVMeFix.kext</string>
                     <key>Comment</key>
                     <string>V1.0.9 | NVMeFix.kext</string>
@@ -525,7 +465,7 @@
                     <key>BundlePath</key>
                     <string>RealtekCardReaderFriend.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.0 | RealtekCardReaderFriend.kext</string>
+                    <string>V1.0.1 | RealtekCardReaderFriend.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -975,17 +915,17 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>Base</key>
-                    <string>__ZN8AppleRTC18setupDateTimeAlarmEPK11RTCDateTime</string>
+                    <string></string>
                     <key>Comment</key>
-                    <string>Disable RTC wake scheduling</string>
+                    <string>Enable TRIM for SSD</string>
                     <key>Count</key>
-                    <integer>1</integer>
+                    <integer>0</integer>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Find</key>
-                    <data></data>
+                    <data>AEFQUExFIFNTRAA=</data>
                     <key>Identifier</key>
-                    <string>com.apple.driver.AppleRTC</string>
+                    <string>com.apple.iokit.IOAHCIBlockStorage</string>
                     <key>Limit</key>
                     <integer>0</integer>
                     <key>Mask</key>
@@ -993,69 +933,9 @@
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
-                    <string>19.0.0</string>
-                    <key>Replace</key>
-                    <data>ww==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>Base</key>
-                    <string>_AcpiOsVprintf</string>
-                    <key>Comment</key>
-                    <string>Disable ACPI logging</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data></data>
-                    <key>Identifier</key>
-                    <string>com.apple.driver.AppleACPIPlatform</string>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>MaxKernel</key>
-                    <string>18.5.0</string>
-                    <key>MinKernel</key>
-                    <string>18.5.0</string>
-                    <key>Replace</key>
-                    <data>ww==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>x86_64</string>
-                    <key>Base</key>
-                    <string>__ZN11BCM5701Enet14getAdapterInfoEv</string>
-                    <key>Comment</key>
-                    <string>Broadcom BCM57785 patch</string>
-                    <key>Count</key>
-                    <integer>1</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>6AAA//9miYMABQAA</data>
-                    <key>Identifier</key>
-                    <string>com.apple.iokit.AppleBCM5701Ethernet</string>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data>/wAA////////////</data>
-                    <key>MaxKernel</key>
-                    <string>19.9.9</string>
-                    <key>MinKernel</key>
                     <string></string>
                     <key>Replace</key>
-                    <data>uLQWAABmiYMABQAA</data>
+                    <data>AAAAAAAAAAAAAAA=</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
@@ -1369,9 +1249,9 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 swd_panic=1 vm_compressor=2</string>
+                    <string>keepsyms=1 vm_compressor=2</string>
                     <key>csr-active-config</key>
-                    <data>/w8AAA==</data>
+                    <data>7w8AAA==</data>
                     <key>prev-lang:kbd</key>
                     <data>ZW4tVVM6MA==</data>
                     <key>run-efi-updater</key>

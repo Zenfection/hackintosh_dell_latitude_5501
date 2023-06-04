@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  release:
+    types: [published]
+
+jobs:
+  ocvalidate:
+    name: "Validate config"
+    uses: ./.github/workflows/ocvalidate.yml
+  update-oc-binaries:
+    name: "Update OpenCore binaries"
+    needs: ocvalidate
+    uses: ./.github/workflows/update_oc.yml
+  ocvalidamus:
+    name: "Run OCValidamus"
+    needs: update-oc-binaries
+    uses: ./.github/workflows/ocvalidamus.yml
+  upload-release:
+    name: "Upload to release"
+    needs: ocvalidamus
+    uses: ./.github/workflows/release.yml
+  virustotal:
+    name: "Scan with VirusTotal"
+    needs: upload-release
+    uses: ./.github/workflows/virustotal.yml
+    secrets: inherit

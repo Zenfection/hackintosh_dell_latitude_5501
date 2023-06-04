@@ -1,0 +1,24 @@
+name: Release
+on:
+  workflow_call:
+
+jobs:
+  build:
+    name: Upload new project release
+    runs-on:
+      - macos-latest
+    steps:
+      - name: Checkout to current repo
+        uses: actions/checkout@v3
+
+      - name: Compress EFI to EFI.zip
+        run: zip -r -X EFI.zip EFI
+
+      - name: Upload to Release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@2b9d2847a97b04d02ad5c3df2d3a27baa97ce689
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: EFI.zip
+          tag: ${{ github.ref }}
+          file_glob: true
